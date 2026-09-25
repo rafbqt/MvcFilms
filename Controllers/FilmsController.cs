@@ -17,4 +17,15 @@ public class FilmsController : Controller
     {
         return View(films);
     }
+    public IActionResult Details(int? id)
+{
+    var film = films.FirstOrDefault(f => f.Id == id);
+
+    if (film == null)
+    {
+        return NotFound();
+    }
+
+    return View(film);
+}
 }
