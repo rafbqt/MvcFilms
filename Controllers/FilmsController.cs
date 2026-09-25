@@ -28,4 +28,10 @@ public class FilmsController : Controller
 
     return View(film);
 }
+public IActionResult Apres(int id)
+{
+    var filmsFiltres = films.Where(f => f.Annee > id).ToList();
+
+    return View(filmsFiltres);
+}
 }
