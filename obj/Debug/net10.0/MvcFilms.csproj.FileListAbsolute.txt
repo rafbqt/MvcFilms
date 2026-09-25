@@ -95,3 +95,4 @@ C:\Users\Rafaël\MvcFilms\obj\Debug\net10.0\refint\MvcFilms.dll
 C:\Users\Rafaël\MvcFilms\obj\Debug\net10.0\MvcFilms.pdb
 C:\Users\Rafaël\MvcFilms\obj\Debug\net10.0\MvcFilms.genruntimeconfig.cache
 C:\Users\Rafaël\MvcFilms\obj\Debug\net10.0\ref\MvcFilms.dll
+C:\Users\Rafaël\MvcFilms\obj\Debug\net10.0\MvcFilms.sourcelink.json
